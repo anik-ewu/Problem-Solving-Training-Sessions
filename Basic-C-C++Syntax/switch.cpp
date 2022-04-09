@@ -3,9 +3,10 @@ using namespace std;
 
 int main() {
 
-    int day = 4;
+    int day = 200;
 
     switch (day) {
+
       case 1:
         cout << "Monday";
         break;
@@ -27,6 +28,9 @@ int main() {
       case 7:
         cout << "Sunday";
         break;
+      default:
+        cout<<"Invalid Day"<<endl;
+
     }
 
     return 0;
